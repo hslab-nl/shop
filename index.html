@@ -5,6 +5,24 @@
     <title>HSL Shop</title>
     <style>
 
+html {
+  font-family: "Verdana"
+}
+
+#header {
+    display: flex;
+    align-items: center; /* vertically centers text with image */
+}
+
+#header img {
+    margin-right: 10px;
+}
+
+#header h1 {
+    color: red;
+    /* font-family: "Garamond" */
+}
+
 #container {
     max-width: 1200px;
     margin: 0 auto;
@@ -75,6 +93,7 @@
     font-size: 0.85rem;
     color: #666;
     margin: 0 0 10px;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .product-bottom {
@@ -99,7 +118,10 @@
   <body>
     
     <div id="container">
-        <h1>HSL Shop</h1>
+        <div id="header">
+            <img src="images/hslab_logo_150x48_inv.png"/>
+            <h1>CWP Shop</h1>
+        </div>
     </div>
   </body>
   <script>"use strict";
