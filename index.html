@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HSL Shop</title>
     <style>
 
@@ -20,9 +21,19 @@
 }
 
 .category {
+    margin-bottom: 32px;
+}
+
+.product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 16px;
+}
+
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .product {
@@ -102,30 +113,32 @@ function create_dom_element(innerHTML) {
     return wrapper.firstChild;
 }
 
-function create_category(category) {
+function create_category(category_name) {
     return create_dom_element(
-`<div class="category">${category}
-</div>`);
+`<div class="category">
+    <h2>${category_name}</h2>
+    <div class="product-grid"></div>
+    </div>
+`);
 }
 
 function create_product(name, descr, price, sku, link) {
     const imagePath = `images/sku_${sku}.jpg`;
 
     return create_dom_element(
-        `<div class="product">
-            <a href="${link}" target="_blank" class="product-link">
-                <img src="${imagePath}" alt="${name}" class="product-image" />
-                
-                <div class="product-info">
-                    <h3 class="product-name">${name}</h3>
-                    <p class="product-descr">${descr}</p>
-                    <div class="product-bottom">
-                        <span class="product-price">&euro;${price}</span>
-                    </div>
-                </div>
-            </a>
+`<div class="product">
+    <a href="${link}" target="_blank" class="product-link">
+        <img src="${imagePath}" alt="${name}" class="product-image" />
+        
+        <div class="product-info">
+            <h3 class="product-name">${name}</h3>
+            <p class="product-descr">${descr}</p>
+            <div class="product-bottom">
+                <span class="product-price">&euro;${price}</span>
+            </div>
         </div>
-    `);
+    </a>
+</div>`);
 }
 
 (async function main() {
@@ -164,7 +177,9 @@ function create_product(name, descr, price, sku, link) {
             const sku = tokens[I_SKU];
             const link = tokens[I_LINK];
             const product_element = create_product(name, descr, price, sku, link);
-            current_category.appendChild(product_element);
+            console.log(current_category);
+            const grid = current_category.querySelector('.product-grid');
+            grid.appendChild(product_element);
         }
     }
 
