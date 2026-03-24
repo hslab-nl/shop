@@ -1,0 +1,137 @@
+name:        ESP 32
+description: ESP32 WiFi and Bluetooth Board with Separate Headers - CP2104-CH9102F
+price:       12,34
+sku:         001447
+link:        https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/esp32-wifi-and-bluetooth-board-with-separate-headers-cp2104?sort=p.price&order=ASC
+
+name:        Arduino Nano
+description: Nano V3.0 - USB-C - Compatible - Separate Headers
+price:       12,34
+sku:         004270
+link:        https://www.tinytronics.nl/en/development-boards/microcontroller-boards/arduino-compatible/nano-v3.0-usb-c-compatible-separate-headers
+
+name:        Arduino Uno
+description: Uno R3 - Compatible - USB-B
+price:       12,34
+sku:         001142
+link:        https://www.tinytronics.nl/en/development-boards/microcontroller-boards/arduino-compatible/uno-r3-compatible-usb-b
+
+name:        Micro SD Card
+description: Kingston Canvas Select Plus 64GB Class 10 UHS-I A1 microSD card with SD Card Adapter
+price:       12,34
+sku:         002721
+link:        https://www.tinytronics.nl/en/data-storage/sd-cards/kingston-canvas-select-plus-64gb-class-10-uhs-i-a1-microsd-card-with-sd-kaart-adapter?sort=p.price&order=ASC
+
+name:        Component Starter Kit
+description: Component Starter Kit
+price:       12,34
+sku:         001078
+link:        https://www.tinytronics.nl/en/cables-and-connectors/connectors/pin-headers/male/component-starter-kit
+
+name:        Mini Servo (0-180)
+description: SG90 Mini Servo (0-180)
+price:       12,34
+sku:         000108
+link:        https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/servomotoren/sg90-mini-servo
+
+name:        Mini Servo (continuous)
+description: TS90D Mini Servo (continuous)
+price:       12,34
+sku:         002429
+link:        https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/servomotoren/ts90d-mini-servo-1.6kg-continuous
+
+name:        Resistor Set
+description: Resistor Set
+price:       12,34
+sku:         000299
+link:        https://www.tinytronics.nl/nl/componenten/weerstanden/weerstanden/10%CF%89-1m%CF%89-weerstanden-set
+
+name:        Ultrasonic Sensor
+description: Ultrasonic Sensor - HC-SR04
+price:       12,34
+sku:         000065
+link:        https://www.tinytronics.nl/en/sensors/distance/ultrasonic-sensor-hc-sr04
+
+name:        LDR
+description: GL5528 LDR Light sensitive resistor
+price:       12,34
+sku:         000759
+link:        https://www.tinytronics.nl/en/sensors/optical/light-and-color/gl5528-ldr-light-sensitive-resistor
+
+name:        Rotary Encoder Module
+description: Rotary Encoder Module
+price:       12,34
+sku:         003721
+link:        https://www.tinytronics.nl/en/switches/manual-switches/rotary-encoders/rotary-encoder-module
+
+name:        LEDs
+description: LED set 3mm - Green - Red - Yellow - Blue - White - 50 pieces - Bright
+price:       12,34
+sku:         000303
+link:        https://www.tinytronics.nl/en/components/leds/leds/led-set-3mm-green-red-yellow-blue-white-50-pieces-bright
+
+name:        Potentiometer
+description: 10kΩ Standard Potentiometer
+price:       12,34
+sku:         004294
+link:        https://www.tinytronics.nl/en/components/resistors/potentiometers/10k%CF%89-potentiometer-standard-15mm
+
+name:        Breadboard Big
+description: Breadboard 830 points
+price:       12,34
+sku:         000071
+link:        https://www.tinytronics.nl/en/tools-and-mounting/prototyping-supplies/breadboards/breadboard-830-points
+
+name:        Breadboard Small
+description: Breadboard 400 points
+price:       12,34
+sku:         000070
+link:        https://www.tinytronics.nl/en/tools-and-mounting/prototyping-supplies/breadboards/breadboard-400-points
+
+name:        Alligator Clips
+description: Alligator Clips
+price:       12,34
+sku:         004705
+link:        https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/alligator-clip/goobay-alligator-clip-cable-set-50cm-10-pieces
+
+name:        Jumper Wire MF
+description: DuPont Jumper wire Male-Female 10cm 10 wires
+price:       12,34
+sku:         000542
+link:        https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-male-female-10cm-10-wires
+
+name:        Jumper Wire MM
+description: DuPont Jumper wire Male-Male 10cm 10 wires
+price:       12,34
+sku:         000544
+link:        https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-male-male-10cm-10-wires
+
+name:        Jumper Wire FF
+description: DuPont Jumper wire Female-Female 10cm 10 wires
+price:       12,34
+sku:         000539
+link:        https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-female-female-10cm-10-wires
+
+name:        USB-B -> USB-A (30cm)
+description: USB-B USB kabel - 30cm
+price:       12,34
+sku:         000927
+link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/usb-b/usb-b-usb-kabel-30cm
+
+name:        USB-C -> USB-C (0.5m)
+description: Goobay 59118 USB-C USB-A 2.0 Kabel - 0.5m - 3A - Zwart
+price:       12,34
+sku:         005551
+link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/usb-c/goobay-59118-usb-c-usb-a-2.0-kabel-0.5m-3a-zwart?sort=p.price&order=ASC
+
+name:        USB-A -> Micro-USB (30cm)
+description: Micro USB USB-A Kabel - 30cm
+price:       12,34
+sku:         000291
+link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/micro-usb/micro-usb-kabel-30cm
+
+name:        USB-C -> USB-C (1m)
+description: Goobay 66318 USB-C USB-C 2.0 Kabel - 1m - 3A - Zwart
+price:       12,34
+sku:         006735
+link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/usb-c/goobay-66318-usb-c-usb-c-2.0-kabel-1m-3a-zwart

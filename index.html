@@ -165,43 +165,50 @@ function create_product(name, descr, price, sku, link) {
 
 (async function main() {
 
-    const I_NAME  = 0;
-    const I_DESCR = 1;
-    const I_PRICE = 2;
-    const I_SKU   = 3;
-    const I_LINK  = 4;
-
-    data = await (await fetch("./shop_data.tsv")).text();
+    data = await (await fetch("./shop_data.txt")).text();
     data = data.split("\n");
 
-    let current_category = undefined;
+    const current_category = create_category("PRODUCTS");
+    container.appendChild(current_category);
+
+    let name = undefined;
+    let descr = undefined;
+    let price = undefined;
+    let sku = undefined;
+    let link = undefined;
 
     for (let i = 1; i < data.length; i += 1) {
         const l = data[i];
 
-        if (l.startsWith("#category:")) {
-
-            const category = l.substring("#category:".length, l.indexOf("\t"));
-            const category_element = create_category(category);
-            container.appendChild(category_element);
-            current_category = category_element;
+        if (l.trim() == "") {
+            name = undefined;
+            descr = undefined;
+            price = undefined;
+            sku = undefined;
+            link = undefined;
         }
-        else {
-            if (current_category == undefined) {
-                console.error("current_category not defined! (csv uncorrect)");
-                return;
-            }
 
-            const tokens = l.split("\t");
-            const name = tokens[I_NAME];
-            const descr = tokens[I_DESCR];
-            const price = tokens[I_PRICE];
-            const sku = tokens[I_SKU];
-            const link = tokens[I_LINK];
+        if (l.startsWith("name:")) name = l.substring("name:".length).trimLeft();
+        if (l.startsWith("description:")) descr = l.substring("description:".length).trimLeft();
+        if (l.startsWith("price:")) price = l.substring("price:".length).trimLeft();
+        if (l.startsWith("sku:")) sku = l.substring("sku:".length).trimLeft();
+        if (l.startsWith("link:")) link = l.substring("link:".length).trimLeft();
+
+        if (name != undefined
+            && descr != undefined
+            && price != undefined
+            && sku != undefined
+            && link != undefined) {
+            
             const product_element = create_product(name, descr, price, sku, link);
-            console.log(current_category);
             const grid = current_category.querySelector('.product-grid');
             grid.appendChild(product_element);
+
+            name = undefined;
+            descr = undefined;
+            price = undefined;
+            sku = undefined;
+            link = undefined;
         }
     }
 
