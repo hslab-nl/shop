@@ -1,78 +1,66 @@
 name:        ESP 32
 description: ESP32 WiFi and Bluetooth Board with Separate Headers - CP2104-CH9102F
-price:       12,34
+price:       9,00
 sku:         001447
 link:        https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/esp32-wifi-and-bluetooth-board-with-separate-headers-cp2104?sort=p.price&order=ASC
 
 name:        Arduino Nano
 description: Nano V3.0 - USB-C - Compatible - Separate Headers
-price:       12,34
+price:       6,40
 sku:         004270
 link:        https://www.tinytronics.nl/en/development-boards/microcontroller-boards/arduino-compatible/nano-v3.0-usb-c-compatible-separate-headers
 
 name:        Arduino Uno
 description: Uno R3 - Compatible - USB-B
-price:       12,34
+price:       8,50
 sku:         001142
 link:        https://www.tinytronics.nl/en/development-boards/microcontroller-boards/arduino-compatible/uno-r3-compatible-usb-b
 
-name:        Micro SD Card
-description: Kingston Canvas Select Plus 64GB Class 10 UHS-I A1 microSD card with SD Card Adapter
-price:       12,34
-sku:         002721
-link:        https://www.tinytronics.nl/en/data-storage/sd-cards/kingston-canvas-select-plus-64gb-class-10-uhs-i-a1-microsd-card-with-sd-kaart-adapter?sort=p.price&order=ASC
-
 name:        Component Starter Kit
 description: Component Starter Kit
-price:       12,34
+price:       5,50
 sku:         001078
 link:        https://www.tinytronics.nl/en/cables-and-connectors/connectors/pin-headers/male/component-starter-kit
 
 name:        Mini Servo (0-180)
 description: SG90 Mini Servo (0-180)
-price:       12,34
+price:       3,60
 sku:         000108
 link:        https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/servomotoren/sg90-mini-servo
 
 name:        Mini Servo (continuous)
 description: TS90D Mini Servo (continuous)
-price:       12,34
+price:       4,95
 sku:         002429
 link:        https://www.tinytronics.nl/nl/mechanica-en-actuatoren/motoren/servomotoren/ts90d-mini-servo-1.6kg-continuous
 
 name:        Resistor Set
 description: Resistor Set
-price:       12,34
+price:       5,50
 sku:         000299
 link:        https://www.tinytronics.nl/nl/componenten/weerstanden/weerstanden/10%CF%89-1m%CF%89-weerstanden-set
 
 name:        Ultrasonic Sensor
 description: Ultrasonic Sensor - HC-SR04
-price:       12,34
+price:       3,30
 sku:         000065
 link:        https://www.tinytronics.nl/en/sensors/distance/ultrasonic-sensor-hc-sr04
 
-name:        LDR
-description: GL5528 LDR Light sensitive resistor
-price:       12,34
-sku:         000759
-link:        https://www.tinytronics.nl/en/sensors/optical/light-and-color/gl5528-ldr-light-sensitive-resistor
-
 name:        Rotary Encoder Module
 description: Rotary Encoder Module
-price:       12,34
+price:       1,65
 sku:         003721
 link:        https://www.tinytronics.nl/en/switches/manual-switches/rotary-encoders/rotary-encoder-module
 
 name:        LEDs
 description: LED set 3mm - Green - Red - Yellow - Blue - White - 50 pieces - Bright
-price:       12,34
+price:       3,30
 sku:         000303
 link:        https://www.tinytronics.nl/en/components/leds/leds/led-set-3mm-green-red-yellow-blue-white-50-pieces-bright
 
 name:        Potentiometer
 description: 10kΩ Standard Potentiometer
-price:       12,34
+price:       0,55
 sku:         004294
 link:        https://www.tinytronics.nl/en/components/resistors/potentiometers/10k%CF%89-potentiometer-standard-15mm
 
