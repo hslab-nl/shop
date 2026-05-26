@@ -66,60 +66,48 @@ link:        https://www.tinytronics.nl/en/components/resistors/potentiometers/1
 
 name:        Breadboard Big
 description: Breadboard 830 points
-price:       12,34
+price:       3,30
 sku:         000071
 link:        https://www.tinytronics.nl/en/tools-and-mounting/prototyping-supplies/breadboards/breadboard-830-points
 
 name:        Breadboard Small
 description: Breadboard 400 points
-price:       12,34
+price:       2,50
 sku:         000070
 link:        https://www.tinytronics.nl/en/tools-and-mounting/prototyping-supplies/breadboards/breadboard-400-points
 
 name:        Alligator Clips
 description: Alligator Clips
-price:       12,34
+price:       7,70
 sku:         004705
 link:        https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/alligator-clip/goobay-alligator-clip-cable-set-50cm-10-pieces
 
 name:        Jumper Wire MF
 description: DuPont Jumper wire Male-Female 10cm 10 wires
-price:       12,34
+price:       0,55
 sku:         000542
 link:        https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-male-female-10cm-10-wires
 
 name:        Jumper Wire MM
 description: DuPont Jumper wire Male-Male 10cm 10 wires
-price:       12,34
+price:       0,55
 sku:         000544
 link:        https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-male-male-10cm-10-wires
 
 name:        Jumper Wire FF
 description: DuPont Jumper wire Female-Female 10cm 10 wires
-price:       12,34
+price:       0,55
 sku:         000539
 link:        https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-female-female-10cm-10-wires
 
-name:        USB-B -> USB-A (30cm)
-description: USB-B USB kabel - 30cm
-price:       12,34
-sku:         000927
-link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/usb-b/usb-b-usb-kabel-30cm
-
 name:        USB-C -> USB-C (0.5m)
 description: Goobay 59118 USB-C USB-A 2.0 Kabel - 0.5m - 3A - Zwart
-price:       12,34
+price:       4,20
 sku:         005551
 link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/usb-c/goobay-59118-usb-c-usb-a-2.0-kabel-0.5m-3a-zwart?sort=p.price&order=ASC
 
-name:        USB-A -> Micro-USB (30cm)
-description: Micro USB USB-A Kabel - 30cm
-price:       12,34
-sku:         000291
-link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/micro-usb/micro-usb-kabel-30cm
-
 name:        USB-C -> USB-C (1m)
 description: Goobay 66318 USB-C USB-C 2.0 Kabel - 1m - 3A - Zwart
-price:       12,34
+price:       4,40
 sku:         006735
 link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/usb-c/goobay-66318-usb-c-usb-c-2.0-kabel-1m-3a-zwart
