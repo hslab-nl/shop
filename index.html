@@ -144,8 +144,8 @@ function create_category(category_name) {
 `);
 }
 
-function create_product(name, descr, price, sku, link) {
-    const imagePath = `images/sku_${sku}.jpg`;
+function create_product(name, descr, price, sku, img_fmt, link) {
+    const imagePath = `images/${sku}.${img_fmt}`;
 
     return create_dom_element(
 `<div class="product">
@@ -175,39 +175,38 @@ function create_product(name, descr, price, sku, link) {
     let descr = undefined;
     let price = undefined;
     let sku = undefined;
+    let img_fmt = undefined;
     let link = undefined;
 
     for (let i = 1; i < data.length; i += 1) {
         const l = data[i];
 
-        if (l.trim() == "") {
-            name = undefined;
-            descr = undefined;
-            price = undefined;
-            sku = undefined;
-            link = undefined;
-        }
-
         if (l.startsWith("name:")) name = l.substring("name:".length).trimLeft();
         if (l.startsWith("description:")) descr = l.substring("description:".length).trimLeft();
         if (l.startsWith("price:")) price = l.substring("price:".length).trimLeft();
         if (l.startsWith("sku:")) sku = l.substring("sku:".length).trimLeft();
+        if (l.startsWith("img_fmt:")) img_fmt = l.substring("img_fmt:".length).trimLeft();
         if (l.startsWith("link:")) link = l.substring("link:".length).trimLeft();
 
-        if (name != undefined
-            && descr != undefined
-            && price != undefined
-            && sku != undefined
-            && link != undefined) {
+        if (l.trim() == "") {
+
+            console.log(img_fmt);
+
+            if (name != undefined && descr != undefined && price != undefined) {
             
-            const product_element = create_product(name, descr, price, sku, link);
-            const grid = current_category.querySelector('.product-grid');
-            grid.appendChild(product_element);
+                const product_element = create_product(name, descr, price, sku, img_fmt, link);
+                const grid = current_category.querySelector('.product-grid');
+                grid.appendChild(product_element);
+            }
+            else {
+                console.log("wrong data...");
+            }
 
             name = undefined;
             descr = undefined;
             price = undefined;
             sku = undefined;
+            img_fmt = undefined;
             link = undefined;
         }
     }
