@@ -138,13 +138,13 @@ sku:         sku_006735
 img_fmt:     jpg
 link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/usb-c/goobay-66318-usb-c-usb-c-2.0-kabel-1m-3a-zwart
 
-name:        Buttond Set 1
+name:        Button Set 1
 description: (5x)
 price:       1,00
 sku:         sku_hsl_000001
 img_fmt:     png
 
-name:        Buttond Set 2
+name:        Button Set 2
 description: (5x)
 price:       1,00
 sku:         sku_hsl_000002
