@@ -124,7 +124,7 @@ sku:         sku_000539
 img_fmt:     jpg
 link:        https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-female-female-10cm-10-wires
 
-name:        USB-C -> USB-C (0.5m)
+name:        USB-C -> USB-A (0.5m)
 description: Goobay 59118 USB-C USB-A 2.0 Kabel - 0.5m - 3A - Zwart
 price:       4,20
 sku:         sku_005551
