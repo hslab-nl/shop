@@ -19,6 +19,13 @@ sku:         sku_001142
 img_fmt:     jpg
 link:        https://www.tinytronics.nl/en/development-boards/microcontroller-boards/arduino-compatible/uno-r3-compatible-usb-b
 
+name:        ESP32 Wi-Fi and Bluetooth Board
+description: CP2104-CH9102F
+price:       9,90
+sku:         sku_001447
+img_fmt:     jpg
+link:        https://www.tinytronics.nl/en/development-boards/microcontroller-boards/with-wi-fi/esp32-wifi-and-bluetooth-board-with-separate-headers-cp2104
+
 name:        Component Starter Kit
 description: Component Starter Kit
 price:       5,50
@@ -131,21 +138,21 @@ sku:         sku_006735
 img_fmt:     jpg
 link:        https://www.tinytronics.nl/nl/kabels-en-connectoren/kabels-en-adapters/usb/usb-c/goobay-66318-usb-c-usb-c-2.0-kabel-1m-3a-zwart
 
-name:        FOO
-description: Bar
-price:       99,99
+name:        Buttond Set 1
+description: (5x)
+price:       1,00
 sku:         sku_hsl_000001
 img_fmt:     png
 
-name:        PIM
-description: PAM
-price:       99,99
+name:        Buttond Set 2
+description: (5x)
+price:       1,00
 sku:         sku_hsl_000002
 img_fmt:     png
 
-name:        DING
-description: DONG
-price:       99,99
+name:        Latching Switch Set
+description: (5x)
+price:       1,00
 sku:         sku_hsl_000003
 img_fmt:     png
 
